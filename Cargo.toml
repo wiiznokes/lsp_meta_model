@@ -1,0 +1,16 @@
+[package]
+name = "lsp_meta_model"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["wiiznokes <wiiznokes2@gmail.com>"]
+homepage = "https://github.com/wiiznokes/lsp_meta_model/"
+repository = "https://github.com/wiiznokes/lsp_meta_model.git"
+keywords = ["lsp", "meta", "json", "language-server-protocol"]
+description = """
+implementation of the lsp meta model
+"""
+
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
